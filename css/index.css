@@ -1,3 +1,5 @@
+/* https://aderaldogit.github.io/NichoDecor/ */
+
 :root {
   --primary: #6b4b2a;
   --secondary: #a67c52;
@@ -52,6 +54,7 @@ nav a:hover {
 }
 
 .btn {
+  border: transparent;
   background: var(--primary);
   color: #fff;
   padding: 12px 22px;
@@ -198,7 +201,7 @@ nav a:hover {
 
 .contact {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 25px;
   text-align: center;
 }
