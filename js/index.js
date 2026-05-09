@@ -6,6 +6,7 @@ Vim através do site da NichoDecor e gostaria de solicitar um orçamento para um
 `;
 
   let link = "https://wa.me/" + number + "?text=" + encodeURIComponent(msg);
+  window.open(link, "_blank");
 }
 
 function localiza() {
