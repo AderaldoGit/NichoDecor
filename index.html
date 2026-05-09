@@ -9,17 +9,14 @@
       content="Transformamos madeira em soluções personalizadas que valorizam seu espaço e contam histórias."
     />
     <meta name="keywords" content="Nichodecor, madeira, mdf, marcenaria, soluções, personalização" />
-    <meta property="og:site_name" content="https://kimcode.com.br" />
-    <!-- Alterar -->
-    <meta property="og:url" content="https://kimerakil.github.io/kimcode/" />
-    <!-- Alterar -->
+    <meta property="og:site_name" content="https://aderaldogit.github.io/NichoDecor/" />
+    <meta property="og:url" content="https://aderaldogit.github.io/NichoDecor/" />
     <meta property="og:title" content="NichoDecor" />
     <meta
       property="og:description"
       content="Transformamos madeira em soluções personalizadas que valorizam seu espaço e contam histórias."
     />
-    <meta property="og:image" content="https://kimerakil.github.io/kimcode/img/KimCodeLogo.png" />
-    <!-- Alterar -->
+    <meta property="og:image" content="https://aderaldogit.github.io/NichoDecor/img/logoNichodecorFront.png" />
     <title>NichoDecor</title>
     <link rel="stylesheet" href="./css/index.css?v=1.0" />
     <link
@@ -30,14 +27,14 @@
   <body>
     <header>
       <h2>ND NichoDecor</h2>
-      <nav>
+      <!-- <nav>
         <a href="#">INÍCIO</a>
         <a href="#">SOBRE</a>
         <a href="#">DIFERENCIAIS</a>
         <a href="#">PORTFÓLIO</a>
         <a href="#">CONTATO</a>
-      </nav>
-      <a href="#" class="btn">Solicitar Orçamento</a>
+      </nav> -->
+      <button class="btn" onclick="createMessage()">Solicitar Orçamento</button>
     </header>
 
     <section class="hero">
@@ -45,7 +42,7 @@
         <span>SUA FÁBRICA DE NICHOS</span>
         <h1>NichoDecor</h1>
         <p>Transformamos madeira em soluções personalizadas que valorizam seu espaço e contam histórias.</p>
-        <a href="#" class="btn">Solicitar Orçamento</a>
+        <button class="btn" onclick="createMessage()">Solicitar Orçamento</button>
       </div>
       <img src="./img/hero.webp" alt="móveis" />
     </section>
@@ -100,10 +97,10 @@
         <h2>Portfólio</h2>
       </div>
       <div class="portfolio">
-        <img src="./img/portifolio1.png" />
-        <img src="./img/portifolio2.jpg" />
-        <img src="./img/portifolio3.jpg" />
-        <img src="./img/portifolio4.jpg" />
+        <img src="./img/p1ninchodecor.jpg" />
+        <img src="./img/p2ninchodecor.jpg" />
+        <img src="./img/p3ninchodecor.jpg" />
+        <img src="./img/p4ninchodecor.jpg" />
       </div>
     </section>
 
@@ -114,25 +111,26 @@
       <div class="contact">
         <div>
           <h3>WhatsApp</h3>
-          <p>(13) 99999-9999</p>
+          <p onclick="createMessage()">(13) 99660-0667</p>
         </div>
         <div>
           <h3>Localização</h3>
-          <p>Peruíbe - SP</p>
+          <p onclick="localiza()">Peruíbe - SP</p>
         </div>
-        <div>
+        <!--  <div>
           <h3>Instagram</h3>
-          <p>@nichodecor</p>
+          <p>https://www.instagram.com/nichodecor_</p>
         </div>
         <div>
           <h3>Email</h3>
           <p>contato@email.com</p>
-        </div>
+        </div> -->
       </div>
     </section>
 
     <footer>
       <p>© 2024 NichoDecor. Todos os direitos reservados.</p>
     </footer>
+    <script src="./js/index.js?v=1.0"></script>
   </body>
 </html>
