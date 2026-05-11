@@ -6,6 +6,11 @@ Developed by Aderaldo Anderson S. V. Amorim
   color: white;
   text-decoration: none;
 }
+
+.dev-sign {
+  font-size: 0.6rem;
+}
+
 :root {
   --primary: #6b4b2a;
   --secondary: #a67c52;
