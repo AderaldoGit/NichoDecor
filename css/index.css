@@ -1,5 +1,11 @@
-/* https://aderaldogit.github.io/NichoDecor/ */
+/*
+Developed by Aderaldo Anderson S. V. Amorim
+*/
 
+.dev-sign a {
+  color: white;
+  text-decoration: none;
+}
 :root {
   --primary: #6b4b2a;
   --secondary: #a67c52;
